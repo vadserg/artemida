@@ -1,0 +1,44 @@
+#start {
+    padding-top: 90px !important;
+}
+
+@media (max-width:400px) {
+    #start {
+        padding-top: 70px !important;
+    }
+}
+
+.custom-text-shadow {
+    text-shadow: 2px 2px black;
+}
+
+.rel {
+    display: inline-flex;
+    position: relative;
+}
+
+.sticker {
+    position: absolute;
+    left: -40px;
+    top: -30px;
+}
+
+#mymap {
+    min-height: 340px;
+}
+
+#upbutton {
+    background: url("/img/up.png") no-repeat top left;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    z-index: 999;
+}
+
+.divider {
+    background-color: #f0f0f5;
+}
