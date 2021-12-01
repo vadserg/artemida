@@ -8,11 +8,11 @@
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Стоматология АРТЕМИДАСТОМ</title>
-    <!-- Font Awesome -->
+    <!-- Font Awesome 
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    />
+    />-->
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- Material Design Bootstrap -->
@@ -626,7 +626,7 @@
     </footer>
 
     <!-- кнопка "НАВЕРХ " -->
-    <div id="upbutton"></div>
+    <div class="upbutton"></div>
 
     <!-- модальное окно с картой -->
     <div
@@ -680,20 +680,6 @@
 
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Castom JS file -->
-    <script type="text/javascript" src="js/custom.js"></script>
-
-    <script>
-      // прокрутка до нужного раздела на текущей странице
-      // по якорной ссылке из навигации с коррекцией отступа под навигационную панель
-      $(window).on("load", function () {
-        $(".nav-link").click(function () {
-          var _href = $(this).attr("href");
-          $("html, body").animate(
-            { scrollTop: $(_href).offset().top - 70 },
-            1000
-          );
-        });
-      });
-    </script>
+    <script type="text/javascript" src="js/scrollTop.js"></script>
   </body>
 </html>
